@@ -6,7 +6,7 @@ O scanner recebe uma URL como alvo e executa uma série de verificações autom�
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Este projeto tem como finalidade:
 
@@ -21,7 +21,7 @@ Este projeto tem como finalidade:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3**
 - Biblioteca padrão:
@@ -36,7 +36,7 @@ Este projeto tem como finalidade:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 ```bash
 python-security-scanner/
 ├── scanner/
@@ -54,9 +54,9 @@ python-security-scanner/
 
 ---
 
-## 🔍 Funcionalidades
+## Funcionalidades
 
-### ✅ 1. Security Headers Check
+### 1. Security Headers Check
 
 Verifica a presença de headers HTTP importantes para segurança, como:
 
@@ -75,7 +75,7 @@ Esses headers ajudam a prevenir ataques como:
 
 ---
 
-### ✅ 2. Open Port Scan
+### 2. Open Port Scan
 
 Realiza um scan de portas TCP comuns, identificando serviços potencialmente expostos, como:
 
@@ -87,7 +87,7 @@ O objetivo é alertar sobre **exposição desnecessária de serviços**.
 
 ---
 
-### ✅ 3. Authentication & Authorization Check
+### 3. Authentication & Authorization Check
 
 Testa endpoints sensíveis da API para verificar se:
 
@@ -98,7 +98,7 @@ Isso valida boas práticas de **controle de acesso**.
 
 ---
 
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 
@@ -151,7 +151,7 @@ Status: OK
 Details: All sensitive endpoints are protected (401/403 without token).
 ----------------------------------------
 ```
-## 🧪 Ambiente de Testes
+## Ambiente de Testes
 
 Este projeto foi testado contra uma API própria desenvolvida em **Spring Boot**, garantindo que:
 
