@@ -1,0 +1,27 @@
+========================================
+ Python Security Scanner - Scan Report
+========================================
+
+Target URL: http://localhost:8080
+Host: localhost
+Scan Date: 2026-01-11 12:51:03.451308
+
+Checks executed:
+- HTTP Security Headers
+- Open Ports Scan
+- Authentication & Authorization
+
+========================================
+
+[Security Headers]
+Status: WARNING
+Details: Missing headers: Content-Security-Policy, Strict-Transport-Security, Referrer-Policy
+----------------------------------------
+[Open Ports]
+Status: WARNING
+Details: Open ports detected: 5432 (PostgreSQL)
+----------------------------------------
+[Authentication & Authorization]
+Status: OK
+Details: All sensitive endpoints are protected (401/403 without token).
+----------------------------------------
